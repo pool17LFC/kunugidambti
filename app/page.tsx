@@ -217,7 +217,7 @@ export default function Home() {
           <div className="text-6xl mb-6">🚀</div>
           <h1 className="text-4xl font-extrabold text-slate-900 mb-4">部門適性診断</h1>
           <p className="text-slate-500 mb-10">簡単な質問からあなたに「最適な部門」をおすすめします！</p>
-          <p className="text-slate-500 mb-10">この診断テストは例であり熟考の上決定してください。</p>
+          <p className="text-slate-500 mb-10">この診断テストは例であり熟考の上で所属部門を決定してください</p>
           <button onClick={() => setStatus("playing")} className="w-full py-4 bg-indigo-600 text-white rounded-2xl font-bold text-lg shadow-lg hover:bg-indigo-700 transition-all">
             診断を開始する
           </button>
